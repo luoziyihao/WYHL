@@ -1,9 +1,0 @@
-#install_tools安装工具
-sudo python setup.py install
-
-#安装mysql-python的依赖
-sudo apt-get install libmysqlclient-dev
-sudo updatedb
-locate mysql_config	
-
-sudo apt-get install python-dev
