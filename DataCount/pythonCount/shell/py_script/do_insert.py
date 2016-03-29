@@ -29,15 +29,20 @@ class Do_insert_work:
     def do_insert(fieldarr,serviceName):
         conn = get_mysql_conn("ctrade")
         cur = conn.cursor()
-        now =  datetime.datetime.now().strftime("%y-%m-%d %H:%M:%S")
+        lastDate = datetime.date.today() - datetime.timedelta(days=1)
+        now =  lastDate.strftime("%y-%m-%d %H:%M:%S")
         insert_sql ="insert into usermanage_count (phone,count_number,service_name,ua,count_date)     values('%s','%s','%s','%s','%s')" %(fieldarr[1],fieldarr[2],serviceName,fieldarr[0],now)
         cur.execute(insert_sql)
         conn.commit()
         conn.close()
+    
+    @staticmethod
+    def process_files(tmp_dir):
+        for parent,dirnames,filenames in os.walk(tmp_dir):
+            for filename in filenames:
+                Do_insert_work.read_line_file(os.path.join(parent,filename))
 
 if __name__ == '__main__':
     create_default_db("ctrade")
-    Do_insert_work.read_line_file("./tmp/appLogin")
-    Do_insert_work.read_line_file("./tmp/appRelated")
-    Do_insert_work.read_line_file("./tmp/openAndSign")
-    Do_insert_work.read_line_file("./tmp/reg.do")
+    tmp_dir = "/tmp/countServiceLog"
+    Do_insert_work.process_files(tmp_dir)

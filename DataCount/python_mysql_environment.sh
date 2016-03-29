@@ -13,7 +13,7 @@ sudo apt-get install python-dev
 #安装mysql-python   MySQL-python-1.2.5.zip
 sudo python setup.py install
 
-#安装jq
-sudo apt-get install jq
+#定时器
+crontab -e
 
-
+sudo service cron restart
