@@ -1,6 +1,160 @@
+-- phpMyAdmin SQL Dump
+-- version 4.0.10deb1
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Mar 25, 2016 at 03:17 PM
+-- Server version: 5.5.41-0ubuntu0.14.04.1
+-- PHP Version: 5.5.9-1ubuntu4.13
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Database: `ctrade`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `admin_user_list`
+--
+
+CREATE TABLE IF NOT EXISTS `admin_user_list` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `passwd` varchar(32) DEFAULT NULL,
+  `username` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `business_message`
+--
+
+CREATE TABLE IF NOT EXISTS `business_message` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `environment` varchar(20) DEFAULT NULL,
+  `expiryTime` datetime NOT NULL,
+  `inId` bigint(20) NOT NULL,
+  `insertTime` datetime NOT NULL,
+  `isread` varchar(64) DEFAULT NULL,
+  `sendTime` datetime NOT NULL,
+  `title` varchar(255) DEFAULT NULL,
+  `userId` bigint(20) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `business_tradehistory`
+--
+
+CREATE TABLE IF NOT EXISTS `business_tradehistory` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `CO_I` varchar(64) DEFAULT NULL,
+  `FI_I` varchar(64) DEFAULT NULL,
+  `HL_N` bigint(20) NOT NULL,
+  `H_P` decimal(19,2) NOT NULL,
+  `LIQPL` decimal(19,2) NOT NULL,
+  `OR_N` bigint(20) NOT NULL,
+  `OR_T` datetime NOT NULL,
+  `OTHER_ID` varchar(64) DEFAULT NULL,
+  `O_PR` decimal(19,2) NOT NULL,
+  `PR` decimal(19,2) NOT NULL,
+  `QTY` bigint(20) NOT NULL,
+  `SE_F` bigint(20) NOT NULL,
+  `TI` datetime NOT NULL,
+  `TRADEFEE` decimal(19,2) NOT NULL,
+  `TR_I` varchar(64) DEFAULT NULL,
+  `TR_N` bigint(20) NOT NULL,
+  `TR_T` bigint(20) NOT NULL,
+  `TY` bigint(20) NOT NULL,
+  `environment` varchar(20) DEFAULT NULL,
+  `insertDate` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `live_msg`
+--
+
+CREATE TABLE IF NOT EXISTS `live_msg` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `content` longtext,
+  `date` datetime DEFAULT NULL,
+  `ip` varchar(64) DEFAULT NULL,
+  `title` varchar(20) DEFAULT NULL,
+  `roomId` bigint(20) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `roomIdIndex` (`roomId`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+
+--
+-- Dumping data for table `live_msg`
+--
+
 INSERT INTO `live_msg` (`id`, `content`, `date`, `ip`, `title`, `roomId`) VALUES
 (1, '内容一', '2016-01-15 03:07:18', '127.0.0.1', '标题一', NULL),
 (2, '内容二', '2016-01-15 03:07:18', '127.0.0.1', '标题二', NULL);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `live_room`
+--
+
+CREATE TABLE IF NOT EXISTS `live_room` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `author` varchar(20) DEFAULT NULL,
+  `headimgurl` varchar(1000) DEFAULT NULL,
+  `name` varchar(50) DEFAULT NULL,
+  `status` smallint(6) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `member_account`
+--
+
+CREATE TABLE IF NOT EXISTS `member_account` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `bankAccount` varchar(64) DEFAULT NULL,
+  `bankId` varchar(64) DEFAULT NULL,
+  `bankName` varchar(128) DEFAULT NULL,
+  `bankProvince` varchar(64) DEFAULT NULL,
+  `cellphone` varchar(11) NOT NULL,
+  `city` varchar(255) DEFAULT NULL,
+  `customerName` varchar(64) NOT NULL,
+  `customerNo` varchar(32) NOT NULL,
+  `environment` varchar(20) DEFAULT NULL,
+  `invitationCode` varchar(64) DEFAULT NULL,
+  `isActived` int(11) NOT NULL,
+  `isHLBSigned` int(11) NOT NULL,
+  `openDate` datetime NOT NULL,
+  `paperCode` varchar(32) NOT NULL,
+  `paperType` int(11) DEFAULT NULL,
+  `province` varchar(255) DEFAULT NULL,
+  `remoteIp` varchar(20) NOT NULL,
+  `signType` int(11) NOT NULL,
+  `userId` bigint(20) NOT NULL,
+  `ua` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `userIdIndex` (`userId`),
+  KEY `customerNameIndex` (`customerName`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=22 ;
 
 --
 -- Dumping data for table `member_account`
@@ -28,6 +182,30 @@ INSERT INTO `member_account` (`id`, `bankAccount`, `bankId`, `bankName`, `bankPr
 --
 -- Table structure for table `member_user`
 --
+
+CREATE TABLE IF NOT EXISTS `member_user` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `city` varchar(64) DEFAULT NULL,
+  `country` varchar(64) DEFAULT NULL,
+  `headimgurl` varchar(500) DEFAULT NULL,
+  `isAdmin` bit(1) NOT NULL,
+  `nickname` varchar(1200) DEFAULT NULL,
+  `openid` varchar(64) DEFAULT NULL,
+  `passwd` varchar(32) DEFAULT NULL,
+  `phone` varchar(11) DEFAULT NULL,
+  `province` varchar(64) DEFAULT NULL,
+  `regDate` datetime NOT NULL,
+  `sex` varchar(1) DEFAULT NULL,
+  `status` smallint(6) DEFAULT NULL,
+  `token` varchar(32) DEFAULT NULL,
+  `ua` varchar(10) DEFAULT NULL,
+  `unionid` varchar(64) DEFAULT NULL,
+  `lastLoginDate` datetime DEFAULT NULL,
+  `ucenterPasswd` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `openidIndex` (`openid`),
+  KEY `phoneIndex` (`phone`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=71 ;
 
 --
 -- Dumping data for table `member_user`
@@ -76,6 +254,58 @@ INSERT INTO `member_user` (`id`, `city`, `country`, `headimgurl`, `isAdmin`, `ni
 
 -- --------------------------------------------------------
 
+--
+-- Table structure for table `stat_tradedaystat`
+--
+
+CREATE TABLE IF NOT EXISTS `stat_tradedaystat` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `commodityName` varchar(50) NOT NULL,
+  `environment` varchar(50) NOT NULL,
+  `tradeDate` datetime NOT NULL,
+  `tradeMoney` double NOT NULL,
+  `tradeTimes` int(11) NOT NULL,
+  `userId` bigint(20) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `system_app_qa_msg`
+--
+
+CREATE TABLE IF NOT EXISTS `system_app_qa_msg` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `answer` longtext,
+  `question` varchar(2000) DEFAULT NULL,
+  `sortId` int(11) DEFAULT NULL,
+  `type` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `UK_c1fg2h6cbnrjd87tmaqox8i1o` (`sortId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `system_banner`
+--
+
+CREATE TABLE IF NOT EXISTS `system_banner` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `action` varchar(20) DEFAULT NULL,
+  `date` datetime DEFAULT NULL,
+  `img_url` varchar(1000) DEFAULT NULL,
+  `url` varchar(1000) DEFAULT NULL,
+  `title` varchar(20) DEFAULT NULL,
+  `type` varchar(20) DEFAULT NULL,
+  `sortId` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
+
+--
+-- Dumping data for table `system_banner`
+--
 
 INSERT INTO `system_banner` (`id`, `action`, `date`, `img_url`, `url`, `title`, `type`, `sortId`) VALUES
 (1, 'url', '2016-01-16 17:07:08', 'http://cdn.qilin99.cn/assets/img/banner/banner1.jpg', 'http://wp.500win.cn/ctrade/newGuide.html?authFlag=n', NULL, 'home', 0),
@@ -86,12 +316,45 @@ INSERT INTO `system_banner` (`id`, `action`, `date`, `img_url`, `url`, `title`, 
 
 -- --------------------------------------------------------
 
+--
+-- Table structure for table `system_ctrade`
+--
+
+CREATE TABLE IF NOT EXISTS `system_ctrade` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `date` datetime DEFAULT NULL,
+  `environmentCode` varchar(50) DEFAULT NULL,
+  `forShort` varchar(20) DEFAULT NULL,
+  `name` varchar(50) DEFAULT NULL,
+  `isDefault` smallint(6) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+
+--
+-- Dumping data for table `system_ctrade`
+--
 
 INSERT INTO `system_ctrade` (`id`, `date`, `environmentCode`, `forShort`, `name`, `isDefault`) VALUES
 (1, '2016-01-18 17:30:26', 'ctrade1', '大宗所', '大连大宗商品交易中心有限公司', 1);
 
 -- --------------------------------------------------------
 
+--
+-- Table structure for table `system_ctrade_time`
+--
+
+CREATE TABLE IF NOT EXISTS `system_ctrade_time` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `across` smallint(6) DEFAULT NULL,
+  `closeTime` time DEFAULT NULL,
+  `environmentCode` varchar(50) DEFAULT NULL,
+  `isOpen` smallint(6) DEFAULT NULL,
+  `openTime` time DEFAULT NULL,
+  `type` varchar(5) DEFAULT NULL,
+  `val` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `environmentCodeIndex` (`environmentCode`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=10 ;
 
 --
 -- Dumping data for table `system_ctrade_time`
@@ -110,6 +373,17 @@ INSERT INTO `system_ctrade_time` (`id`, `across`, `closeTime`, `environmentCode`
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `system_faxian`
+--
+
+CREATE TABLE IF NOT EXISTS `system_faxian` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `action` varchar(20) DEFAULT NULL,
+  `icon` varchar(1000) DEFAULT NULL,
+  `name` varchar(100) DEFAULT NULL,
+  `url` varchar(1000) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
 
 --
 -- Dumping data for table `system_faxian`
@@ -123,6 +397,23 @@ INSERT INTO `system_faxian` (`id`, `action`, `icon`, `name`, `url`) VALUES
 
 -- --------------------------------------------------------
 
+--
+-- Table structure for table `system_feed_back`
+--
+
+CREATE TABLE IF NOT EXISTS `system_feed_back` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `content` varchar(200) DEFAULT NULL,
+  `date` datetime DEFAULT NULL,
+  `muid` bigint(20) DEFAULT NULL,
+  `phone` varchar(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `UK_jnu0qou0cxql9d7rp42uao287` (`muid`,`phone`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
+
+--
+-- Dumping data for table `system_feed_back`
+--
 
 INSERT INTO `system_feed_back` (`id`, `content`, `date`, `muid`, `phone`) VALUES
 (1, '啦啦啦，我是卖报的小当家。', '2016-01-29 19:16:11', 48, '15210469538'),
@@ -132,6 +423,21 @@ INSERT INTO `system_feed_back` (`id`, `content`, `date`, `muid`, `phone`) VALUES
 (5, '555555555', '2016-02-05 18:56:46', 34, '15537157830');
 
 -- --------------------------------------------------------
+
+--
+-- Table structure for table `system_ipinfo`
+--
+
+CREATE TABLE IF NOT EXISTS `system_ipinfo` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `area` varchar(64) DEFAULT NULL,
+  `city` varchar(64) DEFAULT NULL,
+  `country` varchar(64) DEFAULT NULL,
+  `county` varchar(64) DEFAULT NULL,
+  `ip` varchar(64) DEFAULT NULL,
+  `region` varchar(64) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=61 ;
 
 --
 -- Dumping data for table `system_ipinfo`
@@ -201,6 +507,24 @@ INSERT INTO `system_ipinfo` (`id`, `area`, `city`, `country`, `county`, `ip`, `r
 
 -- --------------------------------------------------------
 
+--
+-- Table structure for table `system_loginhistory`
+--
+
+CREATE TABLE IF NOT EXISTS `system_loginhistory` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `browser` varchar(5120) DEFAULT NULL,
+  `date` datetime DEFAULT NULL,
+  `ip` varchar(64) DEFAULT NULL,
+  `userid` bigint(20) NOT NULL,
+  `ua` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `useridIndex` (`userid`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=696 ;
+
+--
+-- Dumping data for table `system_loginhistory`
+--
 
 INSERT INTO `system_loginhistory` (`id`, `browser`, `date`, `ip`, `userid`, `ua`) VALUES
 (1, 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; M351 Build/KTU84P) AppleWebKit/533.1 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.4 TBS/025483 Mobile Safari/533.1 MicroMessenger/6.3.8.50_r251a77a.680 NetType/WIFI Language/zh_CN', '2015-12-22 19:01:30', '42.81.65.226', 1, NULL),
@@ -904,6 +1228,27 @@ INSERT INTO `system_loginhistory` (`id`, `browser`, `date`, `ip`, `userid`, `ua`
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `system_message`
+--
+
+CREATE TABLE IF NOT EXISTS `system_message` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `adminid` bigint(20) DEFAULT NULL,
+  `content` longtext,
+  `date` datetime DEFAULT NULL,
+  `isDel` bit(1) DEFAULT NULL,
+  `isRead` bit(1) DEFAULT NULL,
+  `muid` bigint(20) DEFAULT NULL,
+  `readDate` datetime DEFAULT NULL,
+  `title` varchar(50) DEFAULT NULL,
+  `type` varchar(20) DEFAULT NULL,
+  `action` varchar(20) DEFAULT NULL,
+  `url` varchar(1000) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `isDelIndex` (`isDel`),
+  KEY `muidIndex` (`muid`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1562 ;
+
 --
 -- Dumping data for table `system_message`
 --
@@ -2480,6 +2825,19 @@ INSERT INTO `system_message` (`id`, `adminid`, `content`, `date`, `isDel`, `isRe
 
 -- --------------------------------------------------------
 
+--
+-- Table structure for table `system_monitorflag`
+--
+
+CREATE TABLE IF NOT EXISTS `system_monitorflag` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `category` varchar(65) DEFAULT NULL,
+  `environment` varchar(20) DEFAULT NULL,
+  `func` varchar(65) DEFAULT NULL,
+  `istrace` varchar(65) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `categoryIndex` (`category`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
 --
 -- Dumping data for table `system_monitorflag`
@@ -2491,6 +2849,25 @@ INSERT INTO `system_monitorflag` (`id`, `category`, `environment`, `func`, `istr
 (3, 'member', 'ctrade1', 'sendHoldValCode', '0');
 
 -- --------------------------------------------------------
+
+--
+-- Table structure for table `system_notice`
+--
+
+CREATE TABLE IF NOT EXISTS `system_notice` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `content` varchar(200) DEFAULT NULL,
+  `date` datetime DEFAULT NULL,
+  `brief` varchar(300) DEFAULT NULL,
+  `title` varchar(100) DEFAULT NULL,
+  `type` smallint(6) DEFAULT NULL,
+  `url` varchar(1000) DEFAULT NULL,
+  `isShow` smallint(6) DEFAULT NULL,
+  `isTop` smallint(6) DEFAULT NULL,
+  `sortId` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `isShowIndex` (`isShow`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
 
 --
 -- Dumping data for table `system_notice`
@@ -2505,6 +2882,20 @@ INSERT INTO `system_notice` (`id`, `content`, `date`, `brief`, `title`, `type`, 
 (6, '公告六', '2015-12-16 00:00:00', '简介六', '标题六', 2, 'http://500win.cn', 1, 1, 0);
 
 -- --------------------------------------------------------
+
+--
+-- Table structure for table `system_qa_msg`
+--
+
+CREATE TABLE IF NOT EXISTS `system_qa_msg` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `answer` varchar(2000) DEFAULT NULL,
+  `question` varchar(2000) DEFAULT NULL,
+  `sortId` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `UK_rv9naxho50njjemsjpxxxwl00` (`sortId`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+
 --
 -- Dumping data for table `system_qa_msg`
 --
@@ -2516,6 +2907,35 @@ INSERT INTO `system_qa_msg` (`id`, `answer`, `question`, `sortId`) VALUES
 
 -- --------------------------------------------------------
 
+--
+-- Table structure for table `system_setting`
+--
+
+CREATE TABLE IF NOT EXISTS `system_setting` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `start_img_url` varchar(1000) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `system_sms`
+--
+
+CREATE TABLE IF NOT EXISTS `system_sms` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `code` varchar(8) DEFAULT NULL,
+  `date` datetime DEFAULT NULL,
+  `phone` varchar(11) DEFAULT NULL,
+  `type` smallint(6) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `phoneIndex` (`phone`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=231 ;
+
+--
+-- Dumping data for table `system_sms`
+--
 
 INSERT INTO `system_sms` (`id`, `code`, `date`, `phone`, `type`) VALUES
 (1, '123456', '2015-12-23 18:59:43', '13928755745', 5),
@@ -2735,6 +3155,22 @@ INSERT INTO `system_sms` (`id`, `code`, `date`, `phone`, `type`) VALUES
 (229, '192707', '2016-03-17 17:47:00', '15537157830', 5),
 (230, '789753', '2016-03-18 17:47:39', '13671260053', 5);
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `system_tradesession`
+--
+
+CREATE TABLE IF NOT EXISTS `system_tradesession` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `customerNo` varchar(50) NOT NULL,
+  `environment` varchar(20) NOT NULL,
+  `sessionId` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `UK_smfxpt46t6936okfdl0slpsao` (`customerNo`),
+  KEY `customerNoIndex` (`customerNo`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=33 ;
+
 --
 -- Dumping data for table `system_tradesession`
 --
@@ -2770,3 +3206,20 @@ INSERT INTO `system_tradesession` (`id`, `customerNo`, `environment`, `sessionId
 
 -- --------------------------------------------------------
 
+--
+-- Table structure for table `system_wechat_msg`
+--
+
+CREATE TABLE IF NOT EXISTS `system_wechat_msg` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `content` varchar(2000) DEFAULT NULL,
+  `numSuccess` int(11) DEFAULT NULL,
+  `numTotal` int(11) DEFAULT NULL,
+  `operateTime` datetime DEFAULT NULL,
+  `operatorName` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -1,4 +1,0 @@
-前置转发器
-TradeWebClient.java
-HttpClientHelper负责单独的url
-
