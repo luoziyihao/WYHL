@@ -27,7 +27,10 @@ order by live_msg.date
 ;
 
 
+select max(date) from live_msg;
 select distinct date from live_msg order by date desc limit 0,1
+select max(ti) lastdate from report_trade;
+select distinct ti from trade_report order by date desc limit 0,1
 
 --date_format(date,'%Y-%m-%d')    -------------->oracle中的to_char();
 --str_to_date(date,'%Y-%m-%d')     -------------->oracle中的to_date();
