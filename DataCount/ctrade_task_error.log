@@ -1,0 +1,303 @@
+2016-04-11 00:15:05,709 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_TRADE_HISTORY,seq=27,method4,svrlength=0,clientlength=41	>
+2016-04-11 00:15:21,708 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_ORDER_HISTORY,seq=34,method6,svrlength=0,clientlength=41	>
+2016-04-11 00:30:05,485 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_FUNDIO_HISTORY,seq=49,method13,svrlength=0,clientlength=41	>
+2016-04-11 00:45:05,188 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_TRADE_HISTORY,seq=3,method4,svrlength=0,clientlength=41	>
+2016-04-11 00:52:03,971 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_TRADE_HISTORY,seq=7,method4,svrlength=0,clientlength=41	>
+2016-04-11 01:00:10,719 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_FUNDIO_HISTORY,seq=48,method13,svrlength=0,clientlength=41	>
+2016-04-11 01:00:16,738 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_FUNDIO_HISTORY,seq=51,method13,svrlength=0,clientlength=41	>
+2016-04-11 01:15:22,213 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_TRADE_HISTORY,seq=14,method4,svrlength=0,clientlength=41	>
+2016-04-11 01:30:05,733 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_FUNDIO_HISTORY,seq=55,method13,svrlength=0,clientlength=41	>
+2016-04-11 01:45:11,086 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_TRADE_HISTORY,seq=6,method4,svrlength=0,clientlength=41	>
+2016-04-11 01:45:17,095 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_TRADE_HISTORY,seq=9,method4,svrlength=0,clientlength=41	>
+2016-04-11 02:00:10,483 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_FUNDIO_HISTORY,seq=55,method13,svrlength=0,clientlength=41	>
+2016-04-11 02:15:05,894 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_TRADE_HISTORY,seq=12,method4,svrlength=0,clientlength=41	>
+2016-04-11 02:15:21,908 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_TRADE_HISTORY,seq=20,method4,svrlength=0,clientlength=41	>
+2016-04-11 02:30:05,335 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_FUNDIO_HISTORY,seq=61,method13,svrlength=0,clientlength=41	>
+2016-04-11 02:45:10,870 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_TRADE_HISTORY,seq=11,method4,svrlength=0,clientlength=41	>
+2016-04-11 02:45:16,879 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_TRADE_HISTORY,seq=14,method4,svrlength=0,clientlength=41	>
+2016-04-11 03:00:10,252 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_FUNDIO_HISTORY,seq=60,method13,svrlength=0,clientlength=41	>
+2016-04-11 03:15:22,864 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_ORDER_HISTORY,seq=25,method6,svrlength=0,clientlength=41	>
+2016-04-11 03:30:22,170 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_HOLDING_HISTORY,seq=74,method8,svrlength=0,clientlength=41	>
+2016-04-11 03:45:17,666 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_TRADE_HISTORY,seq=21,method4,svrlength=0,clientlength=41	>
+2016-04-11 04:00:16,986 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_HOLDING_HISTORY,seq=69,method8,svrlength=0,clientlength=41	>
+2016-04-11 04:15:22,420 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_ORDER_HISTORY,seq=31,method6,svrlength=0,clientlength=41	>
+2016-04-11 04:30:05,684 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_HOLDING_HISTORY,seq=72,method8,svrlength=0,clientlength=41	>
+2016-04-11 04:41:14,264 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_TRADE_HISTORY,seq=10,method4,svrlength=0,clientlength=41	>
+2016-04-11 04:41:14,772 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_TRADE_HISTORY,seq=11,method4,svrlength=0,clientlength=41	>
+2016-04-11 04:45:17,153 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_ORDER_HISTORY,seq=25,method6,svrlength=0,clientlength=41	>
+2016-04-11 05:00:10,506 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_HOLDING_HISTORY,seq=71,method8,svrlength=0,clientlength=41	>
+2016-04-11 05:15:05,853 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_ORDER_HISTORY,seq=29,method6,svrlength=0,clientlength=41	>
+2016-04-11 05:30:05,226 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_HOLDING_HISTORY,seq=78,method8,svrlength=0,clientlength=41	>
+2016-04-11 05:30:33,317 ERROR [GetTradeDataService] - <[Ljava.lang.StackTraceElement;@9eb344>
+org.hibernate.exception.GenericJDBCException: could not prepare statement
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:54)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:196)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:160)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:1885)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1862)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355)
+	at org.hibernate.loader.Loader.doList(Loader.java:2554)
+	at org.hibernate.loader.Loader.doList(Loader.java:2540)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370)
+	at org.hibernate.loader.Loader.list(Loader.java:2365)
+	at org.hibernate.loader.criteria.CriteriaLoader.list(CriteriaLoader.java:126)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1682)
+	at org.hibernate.internal.CriteriaImpl.list(CriteriaImpl.java:380)
+	at org.hibernate.internal.CriteriaImpl.uniqueResult(CriteriaImpl.java:402)
+	at com.qilin.service.GetTradeDataService.getLastTradeDate(GetTradeDataService.java:461)
+	at com.qilin.service.GetTradeDataService.getTradeData(GetTradeDataService.java:308)
+	at com.qilin.service.GetTradeDataService.todayTask(GetTradeDataService.java:144)
+	at com.qilin.service.GetTradeDataService$$FastClassBySpringCGLIB$$5128ca22.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:717)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:267)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)
+	at com.qilin.service.GetTradeDataService$$EnhancerBySpringCGLIB$$14d94756.todayTask(<generated>)
+	at sun.reflect.GeneratedMethodAccessor98.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:304)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLException: Connection com.mysql.jdbc.JDBC4Connection@484b0f is closed.
+	at org.apache.commons.dbcp.DelegatingConnection.checkOpen(DelegatingConnection.java:398)
+	at org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:279)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.prepareStatement(PoolingDataSource.java:313)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:162)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186)
+	... 41 more
+2016-04-11 05:45:10,704 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_ORDER_HISTORY,seq=39,method6,svrlength=0,clientlength=41	>
+2016-04-11 06:45:10,761 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_ORDER_HISTORY,seq=44,method6,svrlength=0,clientlength=41	>
+2016-04-11 07:10:55,373 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_TRADE_HISTORY,seq=20,method4,svrlength=0,clientlength=41	>
+2016-04-11 07:13:43,620 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_TRADE_HISTORY,seq=11,method4,svrlength=0,clientlength=41	>
+2016-04-11 07:15:05,719 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_FUNDIO_HISTORY,seq=50,method13,svrlength=0,clientlength=41	>
+2016-04-11 07:15:47,791 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_HOLDING_HISTORY,seq=70,method8,svrlength=0,clientlength=41	>
+2016-04-11 07:18:02,139 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_ORDER_HISTORY,seq=34,method6,svrlength=0,clientlength=41	>
+2016-04-11 07:19:36,225 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_HOLDING_HISTORY,seq=79,method8,svrlength=0,clientlength=41	>
+2016-04-11 07:24:14,990 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_TRADE_HISTORY,seq=21,method4,svrlength=0,clientlength=41	>
+2016-04-11 07:24:39,221 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_ORDER_HISTORY,seq=32,method6,svrlength=0,clientlength=41	>
+2016-04-11 07:24:54,168 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_ORDER_HISTORY,seq=39,method6,svrlength=0,clientlength=41	>
+2016-04-11 07:35:08,634 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_FUNDIO_HISTORY,seq=53,method13,svrlength=0,clientlength=41	>
+2016-04-11 07:37:10,258 ERROR [GetTradeDataService] - <return message format error:	{'msg':'Reque	Request:QUERY_TRADE_HISTORY,seq=7,method4,svrlength=0,clientlength=41	>
+2016-04-11 07:41:37,369 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_FUNDIO_HISTORY,seq=48,method13,svrlength=0,clientlength=41	>
+2016-04-11 07:42:58,657 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}�    W      ?�{"holdings":[{"C_QTY":1,"H_ID":9255,"UT":1448363445000,"FI_I":"124000000000002","TR_N":10253,"MAR":6.11,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":40.73,"OR_T":1448363445000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":33.21},{"C_QTY":1,"H_ID":9258,"UT":1448364655000,"FI_I":"124000000000002","TR_N":10255,"MAR":130.4,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1630,"OR_T":1448364655000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":9261,"UT":1448365652000,"FI_I":"124000000000002","TR_N":10257,"MAR":6.14,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":40.94,"OR_T":1448365652000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":33.21},{"C_QTY":1,"H_ID":9264,"UT":1448365656000,"FI_I":"124000000000002","TR_N":10259,"MAR":4.94,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":32.94,"OR_T":1448365656000,"OTHER_ID":"124","TY":2,"O_QTY":1,"H_P":33.21},{"C_QTY":1,"H_ID":9267,"UT":1448368004000,"FI_I":"124000000000002","TR_N":10261,"MAR":131.28,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1641,"OR_T":1448368004000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":9270,"UT":1448368323000,"FI_I":"124000000000002","TR_N":10263,"MAR":131.28,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1641,"OR_T":1448368323000,"OTHER_ID":"124","TY":2,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":9273,"UT":1448368384000,"FI_I":"124000000000002","TR_N":10265,"MAR":6.13,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":40.85,"OR_T":1448368384000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":33.21},{"C_QTY":1,"H_ID":9276,"UT":1448368388000,"FI_I":"124000000000002","TR_N":10267,"MAR":4.93,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":32.85,"OR_T":1448368388000,"OTHER_ID":"124","TY":2,"O_QTY":1,"H_P":33.21},{"C_QTY":1,"H_ID":9279,"UT":1448368442000,"FI_I":"124000000000002","TR_N":10269,"MAR":4.92,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":32.81,"OR_T":1448368442000,"OTHER_ID":"124","TY":2,"O_QTY":1,"H_P":33.21},{"C_QTY":1,"H_ID":9345,"UT":1448437455000,"FI_I":"124000000000002","TR_N":10343,"MAR":133.73,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1671.62,"OR_T":1448437455000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":9354,"UT":1448440494000,"FI_I":"124000000000002","TR_N":10355,"MAR":2773.8,"F_QTY":0,"CO_I":"WGO","MAR_RATE":0.08,"O_PR":2311.5,"OR_T":1448440494000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":2282.1},{"C_QTY":2,"H_ID":9634,"UT":1448880537000,"FI_I":"124000000000006","TR_N":10633,"MAR":12.24,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":40.8,"OR_T":1448880537000,"OTHER_ID":"124","TY":1,"O_QTY":2,"H_P":33.21},{"C_QTY":3,"H_ID":9637,"UT":1448881082000,"FI_I":"124000000000006","TR_N":10635,"MAR":14.72,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":32.7,"OR_T":1448881082000,"OTHER_ID":"124","TY":2,"O_QTY":3,"H_P":33.21},{"C_QTY":1,"H_ID":9655,"UT":1448958542000,"FI_I":"124000000000007","TR_N":10647,"MAR":6.18,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":41.22,"OR_T":1448939697000,"OTHER_ID":"124","TY":1,"O_QTY":2,"H_P":33.21},{"C_QTY":1,"H_ID":9688,"UT":1448958633000,"FI_I":"124000000000007","TR_N":10675,"MAR":133.17,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1664.64,"OR_T":1448958633000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":1648.77},{"C_QTY":5,"H_ID":9709,"UT":1449025435000,"FI_I":"124000000000006","TR_N":10707,"MAR":30.61,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":40.81,"OR_T":1449025435000,"OTHER_ID":"124","TY":1,"O_QTY":5,"H_P":33.21},{"C_QTY":2,"H_ID":9742,"UT":1449128221000,"FI_I":"124000000000011","TR_N":10733,"MAR":12.24,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":40.79,"OR_T":1449128221000,"OTHER_ID":"124","TY":1,"O_QTY":2,"H_P":33.21},{"C_QTY":3,"H_ID":9745,"UT":1449128233000,"FI_I":"124000000000011","TR_N":10735,"MAR":14.76,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":32.79,"OR_T":1449128233000,"OTHER_ID":"124","TY":2,"O_QTY":3,"H_P":33.21},{"C_QTY":4,"H_ID":9751,"UT":1449128630000,"FI_I":"124000000000011","TR_N":10741,"MAR":24.5,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":40.83,"OR_T":1449128630000,"OTHER_ID":"124","TY":1,"O_QTY":4,"H_P":33.21},{"C_QTY":1,"H_ID":9757,"UT":1449134474000,"FI_I":"124000000000013","TR_N":10749,"MAR":6.14,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":40.9,"OR_T":1449134474000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":33.21},{"C_QTY":5,"H_ID":9766,"UT":1449135532000,"FI_I":"124000000000012","TR_N":10761,"MAR":650.04,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1625.1,"OR_T":1449135532000,"OTHER_ID":"124","TY":2,"O_QTY":5,"H_P":1648.77},{"C_QTY":30,"H_ID":9769,"UT":1449135542000,"FI_I":"124000000000012","TR_N":10763,"MAR":185.45,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":41.21,"OR_T":1449135542000,"OTHER_ID":"124","TY":1,"O_QTY":30,"H_P":33.21},{"C_QTY":6,"H_ID":9772,"UT":1449172842000,"FI_I":"124000000000012","TR_N":10765,"MAR":25884,"F_QTY":0,"CO_I":"DAG","MAR_RATE":0.08,"O_PR":3595,"OR_T":1449135548000,"OTHER_ID":"124","TY":1,"O_QTY":6,"H_P":3587},{"C_QTY":1,"H_ID":9775,"UT":1449139915000,"FI_I":"124000000000014","TR_N":10767,"MAR":6.14,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":40.95,"OR_T":1449139915000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":33.21},{"C_QTY":1,"H_ID":9778,"UT":1449141401000,"FI_I":"124000000000014","TR_N":10769,"MAR":4.92,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":32.77,"OR_T":1449141401000,"OTHER_ID":"124","TY":2,"O_QTY":1,"H_P":33.21},{"C_QTY":1,"H_ID":9784,"UT":1449193591000,"FI_I":"124000000000014","TR_N":10775,"MAR":6.12,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":40.81,"OR_T":1449193591000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":33.21},{"C_QTY":1,"H_ID":9829,"UT":1449218381000,"FI_I":"124000000000015","TR_N":10819,"MAR":6.13,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":40.89,"OR_T":1449218381000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":33.21},{"C_QTY":5,"H_ID":10019,"UT":1449643469000,"FI_I":"124000000000018","TR_N":11021,"MAR":651.9,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1629.75,"OR_T":1449643469000,"OTHER_ID":"124","TY":2,"O_QTY":5,"H_P":1648.77},{"C_QTY":1,"H_ID":10043,"UT":1449717893000,"FI_I":"124000000000017","TR_N":11037,"MAR":131.71,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1646.38,"OR_T":1449717893000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":10442,"UT":1450089208000,"FI_I":"124000000000022","TR_N":11409,"MAR":4.98,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":33.22,"OR_T":1450089208000,"OTHER_ID":"124","TY":2,"O_QTY":1,"H_P":33.21},{"C_QTY":2,"H_ID":10511,"UT":1450252451000,"FI_I":"124000000000020","TR_N":11487,"MAR":12.27,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":40.9,"OR_T":1450252451000,"OTHER_ID":"124","TY":1,"O_QTY":2,"H_P":33.21},{"C_QTY":1,"H_ID":10532,"UT":1450326169000,"FI_I":"124000000000022","TR_N":11511,"MAR":6.15,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":40.97,"OR_T":1450326129000,"OTHER_ID":"124","TY":1,"O_QTY":2,"H_P":33.21},{"C_QTY":4,"H_ID":10535,"UT":1450326317000,"FI_I":"124000000000022","TR_N":11519,"MAR":24.56,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":40.93,"OR_T":1450326317000,"OTHER_ID":"124","TY":1,"O_QTY":4,"H_P":33.21},{"C_QTY":1,"H_ID":10667,"UT":1450769211000,"FI_I":"124000000000016","TR_N":11661,"MAR":133.14,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1664.31,"OR_T":1450769211000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":1648.77},{"C_QTY":5,"H_ID":10670,"UT":1450776291000,"FI_I":"124000000000029","TR_N":11663,"MAR":30.51,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":40.68,"OR_T":1450776291000,"OTHER_ID":"124","TY":1,"O_QTY":5,"H_P":33.21},{"C_QTY":0,"H_ID":11003,"UT":1458031431000,"FI_I":"124000000000030","TR_N":11973,"MAR":0,"F_QTY":0,"CO_I":"DAG","MAR_RATE":0.08,"O_PR":3542,"OR_T":1451296873000,"OTHER_ID":"124","TY":2,"O_QTY":1,"H_P":3587},{"C_QTY":2,"H_ID":11410,"UT":1451529693000,"FI_I":"124000000000045","TR_N":12417,"MAR":267.03,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1668.96,"OR_T":1451529693000,"OTHER_ID":"124","TY":1,"O_QTY":2,"H_P":1648.77},{"C_QTY":10,"H_ID":11943,"UT":1452508895000,"FI_I":"124000000000039","TR_N":13165,"MAR":1334.37,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1667.96,"OR_T":1452508895000,"OTHER_ID":"124","TY":1,"O_QTY":10,"H_P":1648.77},{"C_QTY":10,"H_ID":11946,"UT":1452628842000,"FI_I":"124000000000039","TR_N":13167,"MAR":1334.37,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1667.96,"OR_T":1452508896000,"OTHER_ID":"124","TY":1,"O_QTY":10,"H_P":1648.77},{"C_QTY":9,"H_ID":11970,"UT":1452509562000,"FI_I":"124000000000039","TR_N":13183,"MAR":55.31,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":40.97,"OR_T":1452509167000,"OTHER_ID":"124","TY":1,"O_QTY":10,"H_P":33.21},{"C_QTY":10,"H_ID":11973,"UT":1452509171000,"FI_I":"124000000000039","TR_N":13185,"MAR":61.46,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":40.97,"OR_T":1452509171000,"OTHER_ID":"124","TY":1,"O_QTY":10,"H_P":33.21},{"C_QTY":9,"H_ID":11976,"UT":1452571974000,"FI_I":"124000000000039","TR_N":13187,"MAR":44.48,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":32.95,"OR_T":1452509182000,"OTHER_ID":"124","TY":2,"O_QTY":10,"H_P":33.21},{"C_QTY":10,"H_ID":11979,"UT":1452509188000,"FI_I":"124000000000039","TR_N":13189,"MAR":49.44,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":32.96,"OR_T":1452509188000,"OTHER_ID":"124","TY":2,"O_QTY":10,"H_P":33.21},{"C_QTY":8,"H_ID":11982,"UT":1452587070000,"FI_I":"124000000000039","TR_N":13191,"MAR":39.56,"F_QTY":0,"CO_I":"DAGP50G","MAR_RATE":0.03,"O_PR":32.97,"OR_T":1452509189000,"OTHER_ID":"124","TY":2,"O_QTY":10,"H_P":33.21},{"C_QTY":1,"H_ID":11988,"UT":1452564094000,"FI_I":"124000000000033","TR_N":13213,"MAR":134.07,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1675.93,"OR_T":1452564094000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":1648.77},{"C_QTY":10,"H_ID":12003,"UT":1452587052000,"FI_I":"124000000000039","TR_N":13241,"MAR":1306.98,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1633.73,"OR_T":1452587052000,"OTHER_ID":"124","TY":2,"O_QTY":10,"H_P":1648.77},{"C_QTY":0,"H_ID":12102,"UT":1458031431000,"FI_I":"124000000000030","TR_N":13417,"MAR":0,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1637.41,"OR_T":1452845178000,"OTHER_ID":"124","TY":1,"O_QTY":10,"H_P":1648.77},{"C_QTY":1,"H_ID":12222,"UT":1453092701000,"FI_I":"124000000000031","TR_N":13539,"MAR":129.74,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1621.81,"OR_T":1453092701000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":1648.77},{"C_QTY":2,"H_ID":13382,"UT":1453953135000,"FI_I":"124000000000053","TR_N":15143,"MAR":266.77,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1667.3,"OR_T":1453953135000,"OTHER_ID":"124","TY":1,"O_QTY":2,"H_P":1648.77},{"C_QTY":1,"H_ID":13610,"UT":1455681942000,"FI_I":"124000000000060","TR_N":15519,"MAR":131.63,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1645.38,"OR_T":1455681942000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":13713,"UT":1456129599000,"FI_I":"124000000000060","TR_N":15615,"MAR":133.97,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1674.6,"OR_T":1456129599000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":13716,"UT":1456129901000,"FI_I":"124000000000060","TR_N":15617,"MAR":134,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1674.94,"OR_T":1456129901000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":13740,"UT":1456215469000,"FI_I":"124000000000064","TR_N":15649,"MAR":131.79,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1647.38,"OR_T":1456215469000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":13743,"UT":1456215481000,"FI_I":"124000000000064","TR_N":15651,"MAR":131.15,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1639.38,"OR_T":1456215481000,"OTHER_ID":"124","TY":2,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":13755,"UT":1456216211000,"FI_I":"124000000000064","TR_N":15659,"MAR":131.95,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1649.37,"OR_T":1456216211000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":13860,"UT":1456370695000,"FI_I":"124000000000066","TR_N":15783,"MAR":133.33,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1666.63,"OR_T":1456370695000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":1648.77},{"C_QTY":100,"H_ID":13926,"UT":1456460743000,"FI_I":"124000000000066","TR_N":15873,"MAR":13139.12,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1642.39,"OR_T":1456460743000,"OTHER_ID":"124","TY":1,"O_QTY":100,"H_P":1648.77},{"C_QTY":10,"H_ID":14001,"UT":1456721024000,"FI_I":"124000000000068","TR_N":15901,"MAR":1298.24,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1622.8,"OR_T":1456721024000,"OTHER_ID":"124","TY":1,"O_QTY":10,"H_P":1648.77},{"C_QTY":1,"H_ID":14004,"UT":1456721410000,"FI_I":"124000000000068","TR_N":15903,"MAR":129.45,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1618.12,"OR_T":1456721410000,"OTHER_ID":"124","TY":2,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":14007,"UT":1456729508000,"FI_I":"124000000000068","TR_N":15905,"MAR":132.03,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1650.36,"OR_T":1456729508000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":14010,"UT":1456729545000,"FI_I":"124000000000068","TR_N":15907,"MAR":131.98,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1649.7,"OR_T":1456729545000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":14019,"UT":1456735167000,"FI_I":"124000000000068","TR_N":15913,"MAR":133.14,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1664.21,"OR_T":1456735167000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":14055,"UT":1456799133000,"FI_I":"124000000000068","TR_N":15949,"MAR":133.11,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1663.88,"OR_T":1456799133000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":14064,"UT":1456803488000,"FI_I":"124000000000068","TR_N":15955,"MAR":130.56,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1631.97,"OR_T":1456803488000,"OTHER_ID":"124","TY":2,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":14067,"UT":1456803638000,"FI_I":"124000000000068","TR_N":15957,"MAR":130.5,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1631.31,"OR_T":1456803638000,"OTHER_ID":"124","TY":2,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":14070,"UT":1456803744000,"FI_I":"124000000000068","TR_N":15959,"MAR":130.34,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1629.31,"OR_T":1456803744000,"OTHER_ID":"124","TY":2,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":14073,"UT":1456815086000,"FI_I":"124000000000068","TR_N":15961,"MAR":130.53,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1631.67,"OR_T":1456815086000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":14088,"UT":1456822364000,"FI_I":"124000000000061","TR_N":15987,"MAR":130.86,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1635.75,"OR_T":1456822364000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":14091,"UT":1456822641000,"FI_I":"124000000000061","TR_N":15989,"MAR":131.13,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1639.07,"OR_T":1456822641000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":14094,"UT":1456822660000,"FI_I":"124000000000061","TR_N":15991,"MAR":130.48,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1630.97,"OR_T":1456822660000,"OTHER_ID":"124","TY":2,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":14172,"UT":1456998431000,"FI_I":"124000000000068","TR_N":16091,"MAR":133.49,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1668.63,"OR_T":1456998431000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":14178,"UT":1457068910000,"FI_I":"124000000000068","TR_N":16095,"MAR":130.34,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1629.3,"OR_T":1457068910000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":1648.77},{"C_QTY":1,"H_ID":14315,"UT":1457430933000,"FI_I":"124000000000051","TR_N":16267,"MAR":4280.4,"F_QTY":0,"CO_I":"DAG","MAR_RATE":0.08,"O_PR":3567,"OR_T":1457430933000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":3587},{"C_QTY":1,"H_ID":14318,"UT":1457443081000,"FI_I":"124000000000051","TR_N":16269,"MAR":131.52,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1644,"OR_T":1457443081000,"OTHER_ID":"124","TY":1,"O_QTY":1,"H_P":1648.77},{"C_QTY":46,"H_ID":14336,"UT":1457506343000,"FI_I":"124000000000037","TR_N":16295,"MAR":6118.55,"F_QTY":0,"CO_I":"JSAG","MAR_RATE":0.08,"O_PR":1662.65,"OR_T":1457506343000,"OTHER_ID":"124","	Request:QUERY_HOLDING_HISTORY,seq=86,method8,svrlength=0,clientlength=41	>
+2016-04-11 07:42:59,722 ERROR [GetTradeDataService] - <exception:	[Ljava.lang.StackTraceElement;@542e05	Request:QUERY_HOLDING_HISTORY,seq=87,method8,svrlength=0,clientlength=41>
+io.netty.handler.codec.DecoderException: java.lang.Exception: 消息长度解析失败
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:347)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:230)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1001)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:891)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:316)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:230)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:956)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:514)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412)
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280)
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877)
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706)
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661)
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126)
+Caused by: java.lang.Exception: 消息长度解析失败
+	at puxt.common.net.codec.SvrMessageDecoder.decode(SvrMessageDecoder.java:27)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:316)
+	... 26 more
+2016-04-11 07:42:59,722 ERROR [GetTradeDataService] - <exception:	[Ljava.lang.StackTraceElement;@99682d	Request:QUERY_HOLDING_HISTORY,seq=88,method8,svrlength=0,clientlength=41>
+io.netty.handler.codec.DecoderException: java.lang.Exception: 消息长度解析失败
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:347)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:230)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1001)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:891)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:316)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:230)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:956)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:514)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412)
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280)
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877)
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706)
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661)
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126)
+Caused by: java.lang.Exception: 消息长度解析失败
+	at puxt.common.net.codec.SvrMessageDecoder.decode(SvrMessageDecoder.java:27)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:316)
+	... 26 more
+2016-04-11 07:43:28,146 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_HOLDING,seq=6,method7,svrlength=0,clientlength=41	>
+2016-04-11 07:45:10,320 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_FUNDIO_HISTORY,seq=48,method13,svrlength=0,clientlength=41	>
+2016-04-11 07:47:58,589 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_ORDER_HISTORY,seq=39,method6,svrlength=0,clientlength=41	>
+2016-04-11 07:54:35,269 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_ORDER_HISTORY,seq=38,method6,svrlength=0,clientlength=41	>
+2016-04-11 08:00:05,892 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_TRADE_HISTORY,seq=5,method4,svrlength=0,clientlength=41	>
+2016-04-11 08:15:05,544 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_FUNDIO_HISTORY,seq=53,method13,svrlength=0,clientlength=41	>
+2016-04-11 08:28:23,103 ERROR [GetTradeDataService] - <return message error:	{'msg':'Request too often'}	Request:QUERY_FUNDIO_HISTORY,seq=51,method13,svrlength=0,clientlength=41	>
+2016-04-11 08:28:27,084 ERROR [GetTradeDataService] - <exception:	[Ljava.lang.StackTraceElement;@f0d1ad	Request:QUERY_FUNDIO_HISTORY,seq=52,method13,svrlength=0,clientlength=41>
+io.netty.handler.codec.DecoderException: java.lang.Exception: 消息长度解析失败
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:347)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:230)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1001)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:891)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:316)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:230)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:956)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:514)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412)
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280)
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877)
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706)
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661)
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126)
+Caused by: java.lang.Exception: 消息长度解析失败
+	at puxt.common.net.codec.SvrMessageDecoder.decode(SvrMessageDecoder.java:27)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:316)
+	... 26 more
+2016-04-11 08:28:27,084 ERROR [GetTradeDataService] - <exception:	[Ljava.lang.StackTraceElement;@55da44	Request:QUERY_FUNDIO_HISTORY,seq=53,method13,svrlength=0,clientlength=41>
+io.netty.handler.codec.DecoderException: java.lang.Exception: 消息长度解析失败
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:347)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:230)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1001)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:891)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:316)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:230)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:956)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:514)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412)
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280)
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877)
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706)
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661)
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126)
+Caused by: java.lang.Exception: 消息长度解析失败
+	at puxt.common.net.codec.SvrMessageDecoder.decode(SvrMessageDecoder.java:27)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:316)
+	... 26 more
+2016-04-11 08:28:27,085 ERROR [GetTradeDataService] - <exception:	[Ljava.lang.StackTraceElement;@6cc447	Request:QUERY_FUNDIO_HISTORY,seq=54,method13,svrlength=0,clientlength=41>
+io.netty.handler.codec.DecoderException: java.lang.Exception: 消息长度解析失败
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:347)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:230)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1001)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:891)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:316)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:230)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:956)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:514)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412)
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280)
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877)
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706)
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661)
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126)
+Caused by: java.lang.Exception: 消息长度解析失败
+	at puxt.common.net.codec.SvrMessageDecoder.decode(SvrMessageDecoder.java:27)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:316)
+	... 26 more
+2016-04-11 08:28:27,085 ERROR [GetTradeDataService] - <exception:	[Ljava.lang.StackTraceElement;@ca3fb2	Request:QUERY_FUNDIO_HISTORY,seq=55,method13,svrlength=0,clientlength=41>
+io.netty.handler.codec.DecoderException: java.lang.Exception: 消息长度解析失败
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:347)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:230)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1001)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:891)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:316)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:230)
+	at io.netty.channel.ChannelHandlerInvokerUtil.invokeChannelReadNow(ChannelHandlerInvokerUtil.java:84)
+	at io.netty.channel.DefaultChannelHandlerInvoker.invokeChannelRead(DefaultChannelHandlerInvoker.java:153)
+	at io.netty.channel.PausableChannelEventExecutor.invokeChannelRead(PausableChannelEventExecutor.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:389)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:956)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:127)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:514)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:471)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:385)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:351)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.internal.chmv8.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1412)
+	at io.netty.util.internal.chmv8.ForkJoinTask.doExec(ForkJoinTask.java:280)
+	at io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:877)
+	at io.netty.util.internal.chmv8.ForkJoinPool.scan(ForkJoinPool.java:1706)
+	at io.netty.util.internal.chmv8.ForkJoinPool.runWorker(ForkJoinPool.java:1661)
+	at io.netty.util.internal.chmv8.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:126)
+Caused by: java.lang.Exception: 消息长度解析失败
+	at puxt.common.net.codec.SvrMessageDecoder.decode(SvrMessageDecoder.java:27)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:316)
+	... 26 more
