@@ -9,10 +9,6 @@ mvn install:install-file -Dfile=jar包的位置 -DgroupId=上面的groupId -Dart
 mvn install:install-file -Dfile=/home/luoziyihao/Documents/rely_lib/jar-lib/jp-sourceforge-qrcode.jar -DgroupId=jp.sourceforge.qrcode -DartifactId=jp-sourceforge-qrcode -Dversion=1.0.0 -Dpackaging=jar
 mvn install:install-file -Dfile=/home/luoziyihao/Documents/rely_lib/jar-lib/com-swetake-util.jar -DgroupId=com.swetake.util -DartifactId=com-swetake-util -Dversion=1.0.0 -Dpackaging=jar
 
-mvn install:install-file -Dfile=/home/luoziyihao/Documents/rely_lib/jar-lib/QRCode.jar -DgroupId=jp.sourceforge.qrcode -DartifactId=jp-sourceforge-qrcode -Dversion=1.0.0 -Dpackaging=jar
-mvn install:install-file -Dfile=/home/luoziyihao/Documents/rely_lib/jar-lib/swetake.jar -DgroupId=com.swetake.util -DartifactId=com-swetake-util -Dversion=1.0.0 -Dpackaging=jar
-
-
 3,tomcat验证, mysql创建
 
 
