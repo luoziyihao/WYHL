@@ -42,3 +42,13 @@ select str_to_date('08:09:30', '%h:%i:%s'); -- 08:09:30
 select str_to_date('08.09.2008 08:09:30', '%m.%d.%Y %h:%i:%s'); -- 2008-08-09 08:09:30
 
 delete from live_msg where live_msg.date = str_to_date('2016-01-15 03:07:18', '%m-%d-%Y %h:%i:%s');
+
+----------------------------------------------------------------------------------------------------
+-----------------------------SQLObject test for service_count start --------------------------------
+----------------------------------------------------------------------------------------------------
+--获取昨日所有交易的总人数
+select count(phone), ua, service_name from count_usermanage where date_sub(curdate(),interval 1 day) = date_format(count_date, '%Y-%m-%d') group by ua,service_name ;
+select count(phone) count, service_name from (select distinct phone,service_name from count_usermanage) a group by service_name ;
+----------------------------------------------------------------------------------------------------
+-----------------------------SQLObject test for service_count end-----------------------------------
+----------------------------------------------------------------------------------------------------
