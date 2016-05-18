@@ -54,6 +54,10 @@ select count(phone) count, service_name from (select distinct phone,service_name
 --mysqldump -h localhost -uroot -d ctrade count_usermanage count_trade  > count.sql
 --生成Python
 --sqlacodegen mysql://root:''@localhost/ctrade > sqlacodegen_ctrade.py
+-- DATE_SUB(CURDATE(), INTERVAL 1 DAY)
+--修该历史交易供数据测试
+update report_trade_history set ti = DATE_SUB(CURDATE(), INTERVAL 1 DAY) where date_format(ti,'%Y-%m-%d') = '2016-04-23';
+--update report_trade_history set ti = '2016-05-16 15:42:58' where date_format(ti) = date_format(DATE_SUB(CURDATE(), INTERVAL 1 DAY))
 ----------------------------------------------------------------------------------------------------
 -----------------------------SQLObject test for service_count end-----------------------------------
 ----------------------------------------------------------------------------------------------------
