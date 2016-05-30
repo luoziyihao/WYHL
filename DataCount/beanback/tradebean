@@ -1,0 +1,56 @@
+@Column(length = , nullable = false)
+private String other_id;
+
+@Column(nullable = false)
+private double pr;
+
+@Column(nullable = false)
+private double h_p;
+
+@JsonFormat(timezone = "GMT+8")
+@Column(nullable = false)
+private Date ti;
+
+@Column(nullable = false)
+private double o_pr;
+
+@Column(nullable = false)
+private long or_t;
+
+@Column(nullable = false)
+private long ty;
+
+@Column(nullable = false)
+private long se_f;
+
+@Column(length = , nullable = false)
+private String tr_i;
+
+@Column(nullable = false)
+private long qty;
+
+@Column(nullable = false)
+private long hl_n;
+
+@Column(length = , nullable = false)
+private String fi_i;
+
+@Column(nullable = false)
+private double liqpl;
+
+@Column(nullable = false)
+private long tr_n;
+
+@Column(nullable = false)
+private long tr_t;
+
+@Column(length = , nullable = false)
+private String co_i;
+
+@Column(nullable = false)
+private double comm;
+
+@Column(nullable = false)
+private long or_n;
+
+
