@@ -1,0 +1,12 @@
+teamId
+LONG
+name
+STR
+username
+STR
+passwd
+STR
+brief
+STR
+goodat
+STR

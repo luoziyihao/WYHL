@@ -1,0 +1,13 @@
+@Column(length = , nullable = false)
+private String headimgurl;
+
+@Column(length = , nullable = false)
+private String signature;
+
+@Column(length = , nullable = false)
+private String name;
+
+@Column(nullable = false)
+private int status;
+
+

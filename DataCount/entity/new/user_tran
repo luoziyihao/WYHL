@@ -1,0 +1,5 @@
+@JsonFormat(timezone = "GMT+8")
+@Column(nullable = false)
+private Date setua;
+
+

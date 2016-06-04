@@ -1,0 +1,10 @@
+memberId
+LONG
+type
+INT
+date
+date
+content
+STR
+parentId
+LONG

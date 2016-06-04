@@ -1,6 +1,9 @@
 #!/bin/sh
 
+rm -rf ./entity/new
+mkdir -p ./entity/new
 for x
 do
-    awk -f getBean.awk $x|awk -f getBean_2.awk > ${x}bean
+    filename=${x##*/}
+    awk -f getBean_1.awk $x|awk -f getBean_2.awk > ./entity/new/${filename}
 done

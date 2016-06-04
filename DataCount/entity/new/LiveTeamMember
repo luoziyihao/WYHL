@@ -1,0 +1,19 @@
+@Column(length = , nullable = false)
+private String username;
+
+@Column(length = , nullable = false)
+private String passwd;
+
+@Column(length = , nullable = false)
+private String brief;
+
+@Column(length = , nullable = false)
+private String goodat;
+
+@Column(nullable = false)
+private long teamid;
+
+@Column(length = , nullable = false)
+private String name;
+
+

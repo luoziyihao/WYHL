@@ -1001,3 +1001,66 @@ INSERT INTO `live_msg` (`id`, `content`, `date`, `ip`, `title`, `roomId`) VALUES
 INSERT INTO `live_msg` (`id`, `content`, `date`, `ip`, `title`, `roomId`) VALUES (1000, '内容', '1828-01-16 03:08:19', '127.0.0.1', '标题一','1000' );
 INSERT INTO `live_msg` (`id`, `content`, `date`, `ip`, `title`, `roomId`) VALUES (1001, '内容', '1828-01-16 03:09:19', '127.0.0.1', '标题一','1001' );
 
+-- for live_order
+id          | bigint(20)  | NO   | PRI | NULL    | auto_increment |
+bsflag      | int(11)     | NO   |     | NULL    |                |
+code        | varchar(32) | NO   |     | NULL    |                |
+commodityid | bigint(20)  | NO   |     | NULL    |                |
+date        | datetime    | NO   |     | NULL    |                |
+memberid    | bigint(20)  | NO   |     | NULL    |                |
+positions   | double      | NO   |     | NULL    |                |
+price       | double      | NO   |     | NULL    |                |
+profit      | double      | NO   |     | NULL    |                |
+seflag      | int(11)     | NO   |     | NULL    |                |
+stoploss    | double      | NO   |     | NULL    |                |
+stopprofit  | double      | NO   |     | NULL    |                |
+teamid      | bigint(20)  | NO   |     | NULL    |                |
+tradetype   | int(11)     | NO   |     | NULL    |                |
+messagetype | int(11)     | NO   |     | NULL    |                |
+
+INSERT into live_order (
+bsflag      ,
+code        ,
+commodityid ,
+date        ,
+memberid    ,
+positions   ,
+price       ,
+profit      ,
+seflag      ,
+stoploss    ,
+stopprofit  ,
+teamid      ,
+tradetype   ,
+messagetype 
+)
+VALUES
+(
+1,
+"ghghggg",
+12334,
+'1828-01-15 03:07:19',
+1111,
+123.0,
+111.0,
+111.0,
+1,
+11.0,
+11.0,
+111,
+1,
+1
+);
+
+INSERT INTO live_order(id,bsflag,code,commodityid,date,memberid,positions,price,profit,seflag,stoploss,stopprofit,teamid,tradetype,messagetype)VALUES(25,1,'ghghggg',12334,timestamp'2016-01-16 03:07:19.0',1,123,111,111,1,11,11,1,1,1);
+INSERT INTO live_order(id,bsflag,code,commodityid,date,memberid,positions,price,profit,seflag,stoploss,stopprofit,teamid,tradetype,messagetype)VALUES(26,1,'ghghggg',12334,timestamp'2016-01-15 03:07:19.0',1,123,111,111,1,11,11,1,1,1);
+INSERT INTO live_order(id,bsflag,code,commodityid,date,memberid,positions,price,profit,seflag,stoploss,stopprofit,teamid,tradetype,messagetype)VALUES(28,1,'ghghggg',12334,timestamp'2016-01-15 03:06:19.0',1,123,111,111,1,11,11,1,1,1);
+INSERT INTO live_order(id,bsflag,code,commodityid,date,memberid,positions,price,profit,seflag,stoploss,stopprofit,teamid,tradetype,messagetype)VALUES(29,1,'ghghggg',12334,timestamp'2016-01-11 03:06:19.0',1,123,111,111,1,11,11,1,1,1);
+INSERT INTO live_order(id,bsflag,code,commodityid,date,memberid,positions,price,profit,seflag,stoploss,stopprofit,teamid,tradetype,messagetype)VALUES(30,1,'ghghggg',12334,timestamp'2016-01-11 03:16:19.0',1,123,111,111,1,11,11,2,1,1);
+
+--live_interaction
+INSERT INTO live_interaction(id,content,date,memberid,parentid,type,messagetype,sendtype,teamid)VALUES(1,'123',timestamp'2016-06-01 17:02:35.0',1,0,1,1,1,1);
+INSERT INTO live_interaction(id,content,date,memberid,parentid,type,messagetype,sendtype,teamid)VALUES(2,'123',timestamp'2016-06-01 17:46:55.0',1,1,1,0,0,0);
+INSERT INTO live_interaction(id,content,date,memberid,parentid,type,messagetype,sendtype,teamid)VALUES(3,'123',timestamp'2016-06-01 17:49:55.0',1,2,1,0,0,0);
+INSERT INTO live_interaction(id,content,date,memberid,parentid,type,messagetype,sendtype,teamid)VALUES(4,'123',timestamp'2016-06-01 17:48:55.0',1,3,1,0,0,0);
+INSERT INTO live_interaction(id,content,date,memberid,parentid,type,messagetype,sendtype,teamid)VALUES(5,'123',timestamp'2016-06-01 17:47:55.0',1,0,1,0,0,0);

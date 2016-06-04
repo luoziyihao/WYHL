@@ -1,0 +1,13 @@
+memberId	分析师ID
+teamId	团队ID
+code	商品代码
+commodityId	商品ID
+bsFlag	买卖标识(多,空)
+seFlag	委托标识(建,平)
+price	成交价格
+tradeType	成交类型(指价,市价)
+date	喊单时间
+stopProfit	止盈
+stopLoss	止损
+positions	仓位
+profit	盈利
