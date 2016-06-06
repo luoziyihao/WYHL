@@ -61,3 +61,19 @@ update report_trade_history set ti = DATE_SUB(CURDATE(), INTERVAL 1 DAY) where d
 ----------------------------------------------------------------------------------------------------
 -----------------------------SQLObject test for service_count end-----------------------------------
 ----------------------------------------------------------------------------------------------------
+
+--查询前1000条分析师相关的会话
+--
+INSERT INTO live_interaction(id,content,date,memberid,parentid,type,messagetype,sendtype,teamid)VALUES(1,'123',timestamp'2016-06-01 17:02:35.0',1,0,1,1,1,1);
+
+select * from 
+live_interaction origin,
+(
+select * from live_interaction where parentid = 0 and type = 1
+) sin,
+(
+select a.* from live_interaction a inner join live_interaction b on a.parentid = b.id and (b.type = 1 or a.type = 1)
+) dou
+where origin.id = sin.id or origin.id = dou.id
+order by origin.date desc 
+limit 0,1000
