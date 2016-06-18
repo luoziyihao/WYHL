@@ -1055,6 +1055,7 @@ VALUES
 
 INSERT INTO live_order(bsflag,commoditycode,commodityid,date,memberid,price,profit,seflag,stoploss,stopprofit,teamid,tradetype,messagetype,isreply,ordertype,commodityname,positions)VALUES(1,'AAAAA',12334,timestamp'2016-01-16 03:07:19.0',1,30.12,12.11,1,1.23,3.03,1,1,1,1,1,'白银50克',20);
 
+INSERT INTO live_order(bsflag,commoditycode,commodityid,date,memberid,price,profit,seflag,stoploss,stopprofit,teamid,tradetype,messagetype,isreply,ordertype,commodityname,positions)VALUES(1,'DLAG50G',12334,curdate(),1,30.12,12.11,1,1.23,3.03,1,1,1,1,0,'白银',20);
 --live_interaction
 INSERT INTO live_interaction(id,content,date,memberid,parentid,type,messagetype,sendtype,teamid)VALUES(1,'123',timestamp'2016-06-01 17:02:35.0',1,0,1,1,1,1);
 INSERT INTO live_interaction(id,content,date,memberid,parentid,type,messagetype,sendtype,teamid)VALUES(2,'123',timestamp'2016-06-01 17:46:55.0',1,1,1,0,0,0);
