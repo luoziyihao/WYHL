@@ -1052,15 +1052,31 @@ VALUES
 1
 );
 
-INSERT INTO live_order(id,bsflag,code,commodityid,date,memberid,positions,price,profit,seflag,stoploss,stopprofit,teamid,tradetype,messagetype)VALUES(25,1,'ghghggg',12334,timestamp'2016-01-16 03:07:19.0',1,123,111,111,1,11,11,1,1,1);
-INSERT INTO live_order(id,bsflag,code,commodityid,date,memberid,positions,price,profit,seflag,stoploss,stopprofit,teamid,tradetype,messagetype)VALUES(26,1,'ghghggg',12334,timestamp'2016-01-15 03:07:19.0',1,123,111,111,1,11,11,1,1,1);
-INSERT INTO live_order(id,bsflag,code,commodityid,date,memberid,positions,price,profit,seflag,stoploss,stopprofit,teamid,tradetype,messagetype)VALUES(28,1,'ghghggg',12334,timestamp'2016-01-15 03:06:19.0',1,123,111,111,1,11,11,1,1,1);
-INSERT INTO live_order(id,bsflag,code,commodityid,date,memberid,positions,price,profit,seflag,stoploss,stopprofit,teamid,tradetype,messagetype)VALUES(29,1,'ghghggg',12334,timestamp'2016-01-11 03:06:19.0',1,123,111,111,1,11,11,1,1,1);
-INSERT INTO live_order(id,bsflag,code,commodityid,date,memberid,positions,price,profit,seflag,stoploss,stopprofit,teamid,tradetype,messagetype)VALUES(30,1,'ghghggg',12334,timestamp'2016-01-11 03:16:19.0',1,123,111,111,1,11,11,2,1,1);
 
+INSERT INTO live_order(bsflag,commoditycode,commodityid,date,memberid,price,profit,seflag,stoploss,stopprofit,teamid,tradetype,messagetype,isreply,ordertype,commodityname,positions)VALUES(1,'AAAAA',12334,timestamp'2016-01-16 03:07:19.0',1,30.12,12.11,1,1.23,3.03,1,1,1,1,1,'白银50克',20);
+
+INSERT INTO live_order(bsflag,commoditycode,commodityid,date,memberid,price,profit,seflag,stoploss,stopprofit,teamid,tradetype,messagetype,isreply,ordertype,commodityname,positions)VALUES(1,'DLAG50G',12334,curdate(),1,30.12,12.11,1,1.23,3.03,1,1,1,1,0,'白银',20);
 --live_interaction
 INSERT INTO live_interaction(id,content,date,memberid,parentid,type,messagetype,sendtype,teamid)VALUES(1,'123',timestamp'2016-06-01 17:02:35.0',1,0,1,1,1,1);
 INSERT INTO live_interaction(id,content,date,memberid,parentid,type,messagetype,sendtype,teamid)VALUES(2,'123',timestamp'2016-06-01 17:46:55.0',1,1,1,0,0,0);
 INSERT INTO live_interaction(id,content,date,memberid,parentid,type,messagetype,sendtype,teamid)VALUES(3,'123',timestamp'2016-06-01 17:49:55.0',1,2,1,0,0,0);
 INSERT INTO live_interaction(id,content,date,memberid,parentid,type,messagetype,sendtype,teamid)VALUES(4,'123',timestamp'2016-06-01 17:48:55.0',1,3,1,0,0,0);
 INSERT INTO live_interaction(id,content,date,memberid,parentid,type,messagetype,sendtype,teamid)VALUES(5,'123',timestamp'2016-06-01 17:47:55.0',1,0,1,0,0,0);
+
+-- live_point
+INSERT INTO live_point(content,date,memberid,teamid,imgUrl,action,messagetype,url)VALUES('tst content',timestamp'2016-06-01 17:02:35.0',1,1,'http://500win.cn/Public/images/live_chat_face/25.gif,http://500win.cn/Public/images/live_chat_face/21.gif','',2,'');
+
+
+--query live_interaction
+--left join distinct
+select distinct origin.* from 
+live_interaction origin,
+(
+select * from live_interaction where parentid = 0 and type = 1
+) sin,
+(
+select a.* from live_interaction a inner join live_interaction b on a.parentid = b.id and (b.type = 1 or a.type = 1)
+) dou
+where origin.id = sin.id or origin.id = dou.id
+order by origin.date desc 
+limit 0,10
