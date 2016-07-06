@@ -1063,6 +1063,7 @@ INSERT INTO live_interaction(id,content,date,memberid,parentid,type,messagetype,
 INSERT INTO live_interaction(id,content,date,memberid,parentid,type,messagetype,sendtype,teamid)VALUES(4,'123',timestamp'2016-06-01 17:48:55.0',1,3,1,0,0,0);
 INSERT INTO live_interaction(id,content,date,memberid,parentid,type,messagetype,sendtype,teamid)VALUES(5,'123',timestamp'2016-06-01 17:47:55.0',1,0,1,0,0,0);
 
+INSERT INTO live_interaction(id,content,date,memberid,parentid,type,messagetype,sendtype,teamid)VALUES(1,'123',timestamp'2016-06-01 17:02:35.0',52,0,0,1,1,1);
 -- live_point
 INSERT INTO live_point(content,date,memberid,teamid,imgUrl,action,messagetype,url)VALUES('tst content',timestamp'2016-06-01 17:02:35.0',1,1,'http://500win.cn/Public/images/live_chat_face/25.gif,http://500win.cn/Public/images/live_chat_face/21.gif','',2,'');
 
