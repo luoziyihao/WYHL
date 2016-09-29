@@ -1,0 +1,277 @@
+===========================================================MemberService======================================================================
+***adjustOutThreshold(出金阀值控制出金（已被回收奖金污染）)									***
+***adjustOutThreshold(出金阀值控制出金)														***
+***generatorStoredPwd(生成密码)																***
+***getTradeSessionId(获取SessionId)															***
+***heartbeat																				***
+***payBonuses(发放奖金)																		***
+***tradeLogin																				***
+***withdraw_bonuses(回收奖金)																***
+=========================================================AccountServiceImpl===================================================================
+***accountList																				***需要添加盘符来区分不同的用户
+***getAccount																				***
+***getAccounts																				***按传入的参数进行查询，传入的值得做区分
+***getAccountsByTime																		***需要添加盘符
+***getAllBankName																			***需要添加盘符
+***getAllByBankName																			***需要添加盘符
+***getNotGetRewards																			***需要添加盘符
+***getOldAccounts																			***需要添加盘符
+***updateAccount																			***
+=======================================================ActivityJoinServiceImpl================================================================
+***getSingleActivityJoinBy																	***需要添加盘符
+***getSystemActivityJoinList																***传入的参数需要提前进行处理
+=========================================================ActivityServiceImpl==================================================================
+***addActivity																			***
+***deleteActivity																		***
+***excelExportClient（为导出表格服务）													***传入的参数需要提前进行处理
+***getActivity																			***需要添加盘符
+***getActivityList																		***传入的参数需要提前进行处理
+***getActivitys																			***传入的参数需要提前进行处理
+***getSingleActivity																	***
+***getSingleSystemActivityJoin															***
+***getSystemActivityJoin																***传入的参数需要提前进行处理
+***updateActivity																		***
+***updateSystemActivityJoin																***
+==========================================================BannerServiceImpl===================================================================
+***addBanner																	***banner图需要添加盘符
+***addHotActivity																***hotactivity图需要添加盘符
+***getHotActivitys																***
+***deleteBanner																	***
+***deleteHotActivity															***
+***getBanners																	***需要添加盘符
+***getHotActivitys																***需要添加盘符
+***getSingleBanner																***
+***getSingleHotActivity															***
+***updateBanner																	***
+***updateHotActivity															***
+============================================================BaseWxService（无关）=====================================================================
+***getHttp																	***
+***getTokens（获取token）													***
+***postJson（发送Json请求给微信服务器）										***
+==========================================================ClientServiceImpl（用户相关）===================================================================
+***excelExportClient														***
+***getAllclient																***
+***getClientByTime															***
+***getClients																***
+***updateClient																***
+==========================================================CtradeServiceImpl===================================================================
+***getAll（List<Ctrade>）													***需要添加盘符
+========================================================CtradeTimeServiceImpl=================================================================
+***addCtradeTime															***
+***deleteCtradeTime															***
+***getCtradeTimes															***需要添加盘符
+***getSingleCtrade															***
+***updateCtradeTime															***
+==========================================================FeedbackServiceImpl=================================================================
+***getFeedbacks																***反馈的内容是跟什么有关的？？？
+============================================================LinkServiceImpl===================================================================
+***addLink																	***link需要添加盘符
+***deleteLink																***
+***getLink																	***
+***getLinks																	***需要添加盘符
+***updateLink																***
+==========================================================LiveRoomServiceImpl=================================================================
+***getSignalRoom															***
+***updateLiveRoomStatus														***
+============================================================LiveServiceImpl===================================================================
+***addLive																	***
+***addLiveTeam																***
+***addLiveTeamMember														***
+***deleteLive																***
+***deleteLiveOrder															***
+***deleteLivePoint															***
+***deleteLiveTeam															***
+***deleteLiveTeamMember														***
+***findIds																	***
+***findLiveReport															***
+***getInitReportMap															***
+***getLiveOrder																***
+***getLivePoint																***
+***getLives																	***
+***getLiveTeamList															***
+***getLiveTeamMembers														***
+***getLiveTeamMembersList													***
+***getLiveTeams																***
+***getSingleLive															***
+***getSingleLiveTeam														***
+***getSingleLiveTeamMember													***
+***parseReportDate															***
+***updateLive																***
+***updateLiveTeam															***
+***updateLiveTeamMember														***
+==========================================================LiveUserServiceImpl=================================================================
+***addLiveUser																	***
+***getLiveUserPage																***
+***getSingleUser																***
+***getSingleUserById															***
+***updateLiveUser																***
+=============================================================MsgServiceImpl===================================================================
+***addMsg																		***Msg需要添加盘符
+***deleteMsg																	***
+***getMsgs																		***需要添加盘符
+***getSingleMsg																	***
+***updateMsg																	***
+=================================================================MyShiro（无关）======================================================================
+***doGetAuthenticationInfo															***
+***doGetAuthorizationInfo（一个用户有多个角色，每个角色又有多个权限！！）			***
+***setSession（将一些数据放到ShiroSession中，便于其它地方使用）						***
+===========================================================NoticeServiceImpl==================================================================
+***addNotice																		***Notice需要添加盘符
+***deleteNotice																		***
+***getMaxNoticeSortId																***需要添加盘符
+***getNotices																		***需要添加盘符
+***getSingleNotice																	***
+***updateNotice																		***
+***updateNoticeIsTop																***
+***updateNoticeSortId																***
+=========================================================ProductMsgServiceImpl================================================================
+***getProductMsgListByExample														***需要添加盘符
+***getProductMsgs																	***商品信息？？？
+***getSinglePromsgByName															***需要添加盘符
+=============================================================QaServiceImpl====================================================================
+***addQA																			***QaMsg需要添加盘符
+***deleteQA																			***
+***getQAs																			***需要添加盘符
+***getSingleQA																		***
+***updateQA																			***
+============================================================QiniuServiceImpl（无关）==================================================================
+***getUpToken																		***
+***upload																			***
+============================================================ReportServiceImpl=================================================================
+***fundIoAll（【出入金】汇总当日出入金和历史出入金）								***需要添加盘符
+***getCustomerFundStatsByExample													***传入的参数需要提前进行处理
+***getCustomerFundStatsByPager														***传入的参数需要提前进行处理
+***getCustomerFundStatsList															***传入的参数需要提前进行处理
+***getFirstFundIo（获取历史出入金表的最早一条出入金记录）							***需要添加盘符
+***getFirstTrade（获取历史交易表的最早日期）										***需要添加盘符
+***getFrimFundsByPager																***传入的参数需要提前进行处理
+***getFundIoAllByDateAndFiI（获取活动期间单账户总净入金）							***需要添加盘符
+***getFundIos																		***传入的参数需要提前进行处理
+***getFundIOsByPager																***传入的参数需要提前进行处理
+***getFundIOsCurrByPager															***传入的参数需要提前进行处理
+***getFundIOsCurrList（当日出入金）													***传入的参数需要提前进行处理
+***getHalfCommByGroup（交易汇总表 根据交易商标识 去重）								***需要添加盘符
+***getLastFundIoAll（获取ctradeAll中最后插入的一条记录）							***需要添加盘符
+***getLastTradeAll（获取ctradeAll的最大id）											***需要添加盘符
+***getTotalImoneyByDate（获取单用户一段时间内的入金总额）							***需要添加盘符
+***getTradeAll（trade_all表[展示]）													***需要添加盘符
+***getTradeAllByDateAndCoI（根据日期和商品类型获取交易记录集合）					***需要添加盘符
+***getTradeAllByTimeAndCustomerno													***传入的参数需要提前进行处理
+***getTradeAmountByDate（取单用户一段时间内的交易总额）								***需要添加盘符
+***getTradeAmountsByDate（获取一段时间内的交易记录汇总，（每个账户））				***需要添加盘符
+***getTradeCommByDateAndCoIAndFiI（【交易汇总表】获取单人一段时间内某些商品的交易手续费总和）***需要添加盘符
+***getTradesByPager																	***传入的参数需要提前进行处理
+***getTradesCurrByPager																***传入的参数需要提前进行处理
+***getTradesCurrList（当日交易）													***传入的参数需要提前进行处理
+***reportall																		***需要添加盘符
+=============================================================SmsServiceImpl===================================================================
+***addSms																			***Sms需要加盘符？？？
+***deleteAll																		***需要加盘符
+***getAllSms																		***
+============================================================StatisServiceImpl=================================================================
+***april（4月份入金活动统计）																***传入的参数需要提前进行处理
+***brokerageNoCommon																		***不懂
+***brokerageNoHistory																		***不懂
+***getAccounts（获取所有交易商）															***需要添加盘符
+***getAmount（交易单位 和 报价单位 在 商品交易表 可以查到）							    	***查找商品信息时需要添加盘符
+***getBrokerageNoList																		***传入的参数需要提前进行处理
+***getBrokerageNos（获取居间统计）															***传入的参数需要提前进行处理
+***getCountTrade（获取CountTrade表数据  只取前天的）										***需要添加盘符
+***getCountUserManage（获取CountUserManage表数据  获取CountUserManage表数据）				***CountUserManage	？？？	
+***getcustomerFundStats（客户资金状况查询（））												***
+***getCustomerList																			***
+***getCustomerList																			***
+***getCustomers																				***
+***getFrimFunds（客户资金情况查询）															***
+***getFundIOs（前日所有出入金）																***需要添加盘符
+***getPersonBrokers（personBroker表  昨日数据）												***PersonBroker中含有customerno
+***getProductList																			***Product需要添加盘符
+***getProductMsgs（获取商品信息表）															***需要添加盘符
+***getProducts																				***需要添加盘符
+***getTrades（前日所有交易）																***需要添加盘符
+***getUas																					***
+***personBrokerCommon																		***需要添加盘符
+***personBrokerHistory																		***需要添加盘符
+***productCustomer																			***需要添加盘符
+***productsHistory（维护前30天商品统计数据）												***需要添加盘符
+***statis（交易商相关统计）																	***需要添加盘符
+***statisCustomer（交易商统计公共方法）														***需要添加盘符
+***statisHistory（维护前30天交易商统计数据）												***需要添加盘符
+***taskBrokerageNo（定时去抓居间号 关联 商品 到数据库 统计 昨天 居间号）					***需要添加盘符
+***taskPersonBroker（定时去抓交易商关联商品到数据库 统计 昨天 交易商的交易记录）			***需要添加盘符
+***taskProducts（定时去抓商品表相关数据）													***需要添加盘符
+***taskUa（定时去抓 平台相关数据 统计 昨天 平台数据）										***需要添加盘符
+======================================================SystemRewardHistoryServiceImpl==========================================================
+***add																						***
+***caculate（计算回收金额）																	***
+***calculateQc（计算期初权益）																***传入的customerFundStat对象得先进行处理
+***calculateQm（计算期末权益）																***传入的customerFundStat对象得先进行处理
+***getAccounts（获取上个月所有体验金大于0的交易商集合）										***需要添加盘符
+***getActivity（获取活动【根据活动标识】）													***需要添加盘符
+***getEveryData（获取每个用户活动期间的资金状况）											***有customerNo了，可以区分不同的交易所
+***getRecycleReward（回收体验金流水【查询】）												***传入的SystemRewardHistoryExample对象得先进行处理
+***getRewards（发放奖金【查询】）															***传入的SystemRewardHistoryExample对象得先进行处理
+***getSignleReward																			***
+***getSystemRewardHistoryByFilAndType														***有customerNo了，可以区分不同的交易所
+***getSystemRewardHistorys（过滤奖金流水，根据type）										***需要添加盘符
+***insert																					***
+***result（回收奖金 明细）																	***
+***update																					***
+==========================================================TradeBrokerageNoServiceImpl=========================================================
+***addBrokerage																					***
+***deleteBrokerage																				***
+***getSingleBroker																				***需要添加盘符
+***getSingleBrokerage																			***
+***getSingleBrokerageByChannel																	***需要添加盘符
+***getTradeBrokerageNoByExample																	***传入的TradeBrokerageNoExample对象需要提前进行处理
+***getTradeBrokerageNoList																		***需要添加盘符
+***getTradeBrokerageNos																			***传入的TradeBrokerageNoExample对象需要提前进行处理
+***updateBrokerage																				***
+============================================================TradeSessionServiceImpl===========================================================
+***getTradeSessinId																		***
+***saveOrUpdateTradeSessionId															***
+=============================================================TurntableServiceImpl=============================================================
+***addGift																				***
+***addGiftInfo																			***
+***excelExportClient																	***传入的GiftInfoExample对象需要提前进行处理
+***getGiftInfos																			***需要添加盘符
+***getGiftList																			***传入的GiftExample对象需要提前进行处理
+***getSingleGift																		***
+***getSingleGiftInfo																	***
+***updateGift																			***
+***updateGiftInfo																		***
+================================================================UserServiceImpl（无关）===============================================================
+***addUser																				***
+***deleteUser																			***
+***deleteUserById																		***
+***getUser																				***
+***getUserByName																		***
+***getUserPager																			***
+***getUsers																				***
+***login																				***
+***updateUser																			***
+***updateUserNoPwd																		***
+===============================================================WeixinServiceImpl（无关）==============================================================
+***addMenu																			***
+***addWeixin																		***
+***createClickMenu																	***
+***createMenu																		***
+***createMenu																		***
+***createSecondMenu																	***
+***createViewMenu																	***
+***deleteMenu																		***
+***deleteWeixin																		***
+***getAttentions																	***
+***getMsgInOneHour																	***
+***getQrcode																		***
+***getQrcodeLimitTicket（获取二维码ticket【永久二维码】）							***
+***getQrcodeTicket（获取二维码ticket【临时二维码】）								***
+***getSingleMenu																	***
+***getToken（获取token）															***
+***getWeixins																		***
+***getWxMenuList																	***
+***getWxMenuPages																	***
+***refreshMenu																		***
+***sendMsg																			***
+***sendMsg（发送单条消息）															***
+***updateMenu																		***
