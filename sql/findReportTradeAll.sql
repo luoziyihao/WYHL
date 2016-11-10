@@ -1,7 +1,8 @@
-
 SELECT distinct fi_i , environmentCode FROM report_trade_all rta     WHERE EXISTS     (select 1  FROM system_activity_join saj WHERE rta.environmentCode = saj.environmentCode AND rta.fi_i = saj.customerNo)  ;
 
 
 select distinct rth.fi_i customerNo, rth.environmentCode from report_trade_history rth inner join system_activity_join saj on  rth.environmentCode = saj.environmentCode and rth.fi_i = saj.customerNo;
 
+ SELECT DISTINCT ma.customerNo customerNo, ma.customerName customerName, ma.cellphone cellphone, sc.forShort forShort, rta_have.tradeAmount, rta_have.date date FROM ( SELECT sum(pr_sum) tradeAmount, environmentCode, customerNo, date FROM (SELECT rta.pr_sum, rta.environmentCode, rta.fi_i customerNo, saj.date date FROM report_trade_all rta INNER JOIN system_activity_join saj ON rta.environmentCode = saj.environmentCode AND rta.fi_i = saj.customerNo AND saj.code LIKE ? WHERE rta.date >= ? AND rta.date <= ? AND rta.environmentCode = ? ) rta_all GROUP BY environmentCode, customerNo HAVING tradeAmount > 400000 ) rta_have INNER JOIN system_ctrade sc ON sc.environmentCode = rta_have.environmentCode INNER JOIN member_account ma ON ma.customerNo = rta_have.customerNo AND ma.environment = rta_have.environmentCode AND ma.customerName LIKE ? AND ma.customerNo LIKE ? AND ma.cellphone LIKE ? order by tradeAmount desc LIMIT 0,20 
 
+SELECT sum(pr_sum) tradeAmount, environmentCode, customerNo, date FROM (SELECT rta.pr_sum, rta.environmentCode, rta.fi_i customerNo, saj.date date FROM report_trade_all rta INNER JOIN system_activity_join saj ON rta.environmentCode = saj.environmentCode AND rta.fi_i = saj.customerNo AND saj.code LIKE 'DoubleEleven0001' AND rta.ti > '2016-11-07 06:00:00' and rta.ti < '2016-11-12 04:00:00' ) rta_all GROUP BY environmentCode, customerNo HAVING tradeAmount > 400000;
