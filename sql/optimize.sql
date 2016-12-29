@@ -1,0 +1,2 @@
+--	sql-55
+EXPLAIN SELECT this_.id AS id1_29_0_, this_.action AS action2_29_0_, this_.content AS content3_29_0_, this_.date AS date4_29_0_, this_.imgurl AS imgurl5_29_0_ , this_.memberid AS memberid6_29_0_, this_.messagetype AS messaget7_29_0_, this_.teamid AS teamid8_29_0_, this_.url AS url9_29_0_ FROM live_point this_ WHERE this_.teamid = 1 AND this_.id < 1000000 AND this_.date <'2016-12-19 12:43:26' ORDER BY this_.id DESC LIMIT 0,30;
