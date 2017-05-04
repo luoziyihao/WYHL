@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- saved from url=(0128)http://127.0.0.1:10386/markdown/14938717621?L2hvbWUvbHVveml5aWhhby9Eb2N1bWVudHMvV1lITC9nb2xkL3N1bW1hcnkv5qaC6KaB6K6+6K6hLm1kJg== -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>._BackToTopPlus{width:35px;height:35px;border-radius:5px; position:fixed; right:10px; cursor:pointer; background-repeat:no-repeat; background-position:50% 50%; background-color:#000; opacity:.1;transition:opacity .2s ease-in-out;z-index:99999;}._BackToTopPlus:hover{opacity:.5}</style>
+    
+    <title>概要设计.md</title>
+    <link rel="stylesheet" href="./概要设计.md_files/solarized_dark.css">
+    <link rel="stylesheet" href="./概要设计.md_files/markdown.css">
+    <script src="./概要设计.md_files/highlight.js"></script>
+    <script src="./概要设计.md_files/marked.js"></script>
+    <script src="./概要设计.md_files/TweenLite.min.js"></script>
+    <script src="./概要设计.md_files/base64.min.js"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            showProcessingMessages: false,
+            messageStyle: "none",
+            "HTML-CSS": {
+                preferredFont: "STIX",
+                availableFonts: ["STIX", "TeX"],
+                imageFont: null
+            }
+        });
+    </script>
+<style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style></head>
+<body>
+    <section class="container">
+        <article id="js-markdown" class="markdown-content"><h1 id="总述">总述</h1>
+<p>理财产品后端系统</p>
+<h1 id="总体设计">总体设计</h1>
+<p>系统分为订单, 支付, 帐务, 清结算 四个模块。</p>
+<p>订单接口负责处理用户的订单信息, 受web接口调用</p>
+<p>支付模块, 负责处理用户的支付行为, 和系统内部的支付行为; 受web接口 和清结算模块 调用</p>
+<p>帐务模块， 负责处理帐务关系， 包括记载账户余额, 帐务流水; 受支付模块调用</p>
+<p>清结算模块， 负责 对账, 清结算, 试算平衡; 主要是定时任务</p>
+<h1 id="外部接口">外部接口</h1>
+<p>渠道测支付接口</p>
+<p>下游商户接口</p>
+<h1 id="模块设计">模块设计</h1>
+<p>见具体文档</p>
+</article>
+    </section>
+<script src="./概要设计.md_files/index.js"></script>
+
+
+<div class="_BackToTopPlus" style="background-image:url(data:img/png;base64,R0lGODlhEgAUAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAASABQAAAImjI+py+IPo4xmWmRpyq5dFkzgoY3VY5KS9ykcKy6vnMEr3W417hQAOw==);top:393px;"></div><div class="_BackToTopPlus" style="background-image:url(data:img/png;base64,R0lGODlhEgAUAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAASABQAAAIqlB2peX27nINKNsoswnrTLmABKJKcJH5PGl3siKZdabZgWN2rzuPv/yoAADs=);top:438px;"></div></body></html>

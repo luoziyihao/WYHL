@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- saved from url=(0120)http://127.0.0.1:10778/markdown/14938717624?L2hvbWUvbHVveml5aWhhby9Eb2N1bWVudHMvV1lITC9nb2xkL3N1bW1hcnkv5pSv5LuYLm1kJg== -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>._BackToTopPlus{width:35px;height:35px;border-radius:5px; position:fixed; right:10px; cursor:pointer; background-repeat:no-repeat; background-position:50% 50%; background-color:#000; opacity:.1;transition:opacity .2s ease-in-out;z-index:99999;}._BackToTopPlus:hover{opacity:.5}</style>
+    
+    <title>支付.md</title>
+    <link rel="stylesheet" href="./支付.md_files/solarized_dark.css">
+    <link rel="stylesheet" href="./支付.md_files/markdown.css">
+    <script src="./支付.md_files/highlight.js"></script>
+    <script src="./支付.md_files/marked.js"></script>
+    <script src="./支付.md_files/TweenLite.min.js"></script>
+    <script src="./支付.md_files/base64.min.js"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            showProcessingMessages: false,
+            messageStyle: "none",
+            "HTML-CSS": {
+                preferredFont: "STIX",
+                availableFonts: ["STIX", "TeX"],
+                imageFont: null
+            }
+        });
+    </script>
+<style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style></head>
+<body>
+    <section class="container">
+        <article id="js-markdown" class="markdown-content"><h1 id="职责">职责</h1>
+<p>对外支付行为 对接支付渠道, 发起账务</p>
+<p>对内支付行为 发起帐务</p>
+<h1 id="简单流程">简单流程</h1>
+<ul>
+<li>对外支付</li>
+</ul>
+<p>发起对外支付 -&gt; 对被调用方通知支付消息 -&gt; 发起帐务 -&gt; 被通知支付帐务成功</p>
+<ul>
+<li>对内支付</li>
+</ul>
+<p>发起对内支付 -&gt; 发起帐务 -&gt; 被通知支付帐务成功</p>
+<ul>
+<li>收款录入</li>
+</ul>
+<p>发起对内支付 -&gt; 发起帐务 -&gt; 被通知支付帐务成功</p>
+<h1 id="实体">实体</h1>
+<ul>
+<li>支付实体</li>
+</ul>
+<ul>
+<li>用户购买理财产品订单</li>
+</ul>
+<p>订单金额 优惠抵扣 实付金额</p>
+<ul>
+<li>理财收益订单</li>
+</ul>
+<p>订单金额 实收金额</p>
+<ul>
+<li>用户充值订单</li>
+</ul>
+<p>订单金额 手续费 实收金额</p>
+<ul>
+<li>提现</li>
+</ul>
+<p>订单金额</p>
+<h1 id="行为(接口)">行为(接口)</h1>
+<ul>
+<li>对外支付</li>
+</ul>
+<p>用户充值</p>
+<p>用户提现</p>
+<p>用户使用银行卡购买理财产品</p>
+<p>公司给商户打款</p>
+<ul>
+<li>对内</li>
+</ul>
+<p>使用余额购买理财产品<br>商品返利<br>卖出</p>
+<ul>
+<li>收款录入</li>
+</ul>
+<p>公司在商户那里购买的理财产品回款后, 信息录入到内部系统</p>
+<h1 id="异常行为">异常行为</h1>
+<p>支付状态异常 在对账阶段能够发现</p>
+<p>重发 同支付实体 相同支付行为在毫秒级时间内相互提交 ; 可以使用 redis 做并发锁控制</p>
+</article>
+    </section>
+<script src="./支付.md_files/index.js"></script>
+
+
+<div class="_BackToTopPlus" style="background-image:url(data:img/png;base64,R0lGODlhEgAUAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAASABQAAAImjI+py+IPo4xmWmRpyq5dFkzgoY3VY5KS9ykcKy6vnMEr3W417hQAOw==);top:368.5px;"></div><div class="_BackToTopPlus" style="background-image:url(data:img/png;base64,R0lGODlhEgAUAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAASABQAAAIqlB2peX27nINKNsoswnrTLmABKJKcJH5PGl3siKZdabZgWN2rzuPv/yoAADs=);top:413.5px;"></div></body></html>

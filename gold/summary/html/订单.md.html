@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- saved from url=(0120)http://127.0.0.1:10572/markdown/14938717622?L2hvbWUvbHVveml5aWhhby9Eb2N1bWVudHMvV1lITC9nb2xkL3N1bW1hcnkv6K6i5Y2VLm1kJg== -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>._BackToTopPlus{width:35px;height:35px;border-radius:5px; position:fixed; right:10px; cursor:pointer; background-repeat:no-repeat; background-position:50% 50%; background-color:#000; opacity:.1;transition:opacity .2s ease-in-out;z-index:99999;}._BackToTopPlus:hover{opacity:.5}</style>
+    
+    <title>订单.md</title>
+    <link rel="stylesheet" href="./订单.md_files/solarized_dark.css">
+    <link rel="stylesheet" href="./订单.md_files/markdown.css">
+    <script src="./订单.md_files/highlight.js"></script>
+    <script src="./订单.md_files/marked.js"></script>
+    <script src="./订单.md_files/TweenLite.min.js"></script>
+    <script src="./订单.md_files/base64.min.js"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            showProcessingMessages: false,
+            messageStyle: "none",
+            "HTML-CSS": {
+                preferredFont: "STIX",
+                availableFonts: ["STIX", "TeX"],
+                imageFont: null
+            }
+        });
+    </script>
+<style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style></head>
+<body>
+    <section class="container">
+        <article id="js-markdown" class="markdown-content"><h1 id="职责">职责</h1>
+<p>负责处理用户的订单信息, 受web接口调用</p>
+<h1 id="简单流程">简单流程</h1>
+<p>购买理财产品 -&gt; 产生理财产品订单 -&gt; 等待支付 -&gt; 被支付模块通知刷新订单支付状态 -&gt; 订单完成或者关闭订单</p>
+<h1 id="实体">实体</h1>
+<p>理财产品订单</p>
+<p>订单号 购买人信息(用户id, 用户姓名, 用户昵称...) 商品信息(商品id, 商品名称, 商品价格...)  买入卖出方向 支付信息(支付订单号, 支付状态)</p>
+<h1 id="接口行为">接口行为</h1>
+<h2 id="生成订单">生成订单</h2>
+<h2 id="支付状态更新">支付状态更新</h2>
+<p>同步更新, 根据支付模块返回拿到支付状态</p>
+<p>异步, 使用 redis 或者 RabbitMQ 发布订阅的方式; 或者使用定时任务</p>
+<a style="position: relative;" href="http://127.0.0.1:10572/markdown/14938717622?L2hvbWUvbHVveml5aWhhby9Eb2N1bWVudHMvV1lITC9nb2xkL3N1bW1hcnkv6K6i5Y2VLm1kJg==#FFD477D9967F4D7D81EC118679006910" id="FFD477D9967F4D7D81EC118679006910"></a><h2 id="订单状态更新(关闭,-成功等)">订单状态更新(关闭, 成功等)</h2>
+<h1 id="异常行为">异常行为</h1>
+<p>重发(使用redis 并发锁, 后期可以使用 zookeeper)</p>
+</article>
+    </section>
+<script src="./订单.md_files/index.js"></script>
+
+
+<div class="_BackToTopPlus" style="background-image:url(data:img/png;base64,R0lGODlhEgAUAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAASABQAAAImjI+py+IPo4xmWmRpyq5dFkzgoY3VY5KS9ykcKy6vnMEr3W417hQAOw==);top:368.5px;"></div><div class="_BackToTopPlus" style="background-image:url(data:img/png;base64,R0lGODlhEgAUAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAASABQAAAIqlB2peX27nINKNsoswnrTLmABKJKcJH5PGl3siKZdabZgWN2rzuPv/yoAADs=);top:413.5px;"></div></body></html>
