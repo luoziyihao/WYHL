@@ -1,0 +1,6 @@
+RSAº”√‹
+int CProcessInterfaceB1C::SufRecvHandle(char* pRecvBuf, unsigned int ulLen, CPacket &rcvPacket)
+
+
+3DEº”√‹
+int CProcessInterfaceB2C::PreSendHandle(CPacket &sndPacket)
